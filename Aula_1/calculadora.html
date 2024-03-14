@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culadora</title>
+    <style>
+        body{
+            background-color: rgb(82, 3, 155);
+            color: aliceblue;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXIBE OPERAÇÕES ENTRE DOIS NÚMEROS</h1>
+    <script>
+        var num1 = parseFloat(prompt("Digite um numero"))
+        var num2 = parseFloat(prompt("Um outro numero por favor"))
+        
+        var adi = num1+num2
+        var sub = num1-num2
+        var mult = num1*num2
+        var div = num1/num2
+
+        //mostrando no navegador (janela ==> document)
+        document.writeln("<p>O primeiro número é "+num1+"</p>")
+        document.writeln("<p>O segundo número é "+num2+"</p>")
+        document.write('<br>')
+
+        //interpolação de valores - template string
+        document.write(' Num1 = ${num1} e Num2 = ${num2} ')
+        document.write('<br>')
+
+        /*console.log("Adição: "+ adi)
+        console.log("Subtração: "+ sub)
+        console.log("Multiplicação: "+ mult)
+        console.log("Divisão: "+ div)*/
+
+        /*alert("Adição: "+ adi+"    Subtração: "+ sub+"    Multiplicação: "+ mult+"    Divisão: "+ div)*/
+    </script>
+</body>
+</html>
