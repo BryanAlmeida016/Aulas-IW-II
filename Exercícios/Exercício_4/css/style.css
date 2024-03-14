@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+    font-family: Agency FB;
+    display: column;
+    align-items: center;
+    text-align: center;
+}
+
+.botao1 {
+    color: blue;
+}
+.botao2 {
+    color: green;
+}
+.botao3 {
+    color: red;
+}
