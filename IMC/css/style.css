@@ -1,0 +1,125 @@
+*{
+    font-family: Agency FB;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(83, 69, 87);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 2.25rem;
+    position: relative;
+    margin-bottom: 1.25rem;
+    background-color: rgb(45, 5, 53);
+    box-shadow: 3px 3px 6px rgb(116, 68, 129);
+}
+
+#calculadora{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.5rem;
+    box-shadow: 6px 6px 12px rgb(69, 0, 88);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input-box label{
+    font-size: 1.3rem;
+    color: #d6cbe1;
+    font-weight: 500;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(78, 78, 78);
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.input-field span,
+.input-field i{
+    color: #d6cbe1;
+    padding: 0.6rem 1rem;
+    font-size: 1.3rem
+}
+
+.input-field input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #d6cbe1;
+    padding: 0 0.5rem;
+}
+
+.input-field input ::-webkit-outer-spin-button,
+.input-field input ::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+#calcular{
+    background-color: #5f0588;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #d6cbe1;
+    padding: 0.5rem 0.5;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#description{
+    width: 15rem;
+    text-align: center;
+}
+
+#result{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid rgb(78, 78, 78);
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding: 0.75rem 0;
+}
+
+#bmi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+
+#bmi span:last-child{
+    font-size: 0.875rem;
+    color: #d6cbe1;
+}
+
+.hidden{
+    display: none;
+}
