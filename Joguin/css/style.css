@@ -14,6 +14,12 @@
     background: linear-gradient(#87CEEB, #E0F6FF); 
 }
 
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .pipe{
     position: absolute;
     bottom: 0;
